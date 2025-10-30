@@ -1,0 +1,81 @@
+{
+  "header": {
+    "logo": "/uploads/logo.png",
+    "navigation": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Programs", "href": "/programs" },
+      { "label": "Donate", "href": "/donate" }
+    ]
+  },
+  "hero": {
+    "image": "/uploads/hero.jpg",
+    "heading": "Welcome to CAPDIMW.org",
+    "text": "Creating a free socially excluded living environment to advance sustainable citizen rights.",
+    "gallery": [
+      "/uploads/gallery1.jpg",
+      "/uploads/gallery2.jpg",
+      "/uploads/gallery3.jpg"
+    ]
+  },
+  "gridSections": [
+    {
+      "id": "goals",
+      "title": "Organizational Goals",
+      "vision": "To create a free socially excluded living environment to advance sustainable citizen rights.",
+      "mission": "To systematically promote inclusiveness among socially excluded groups to enhance full involvement at all levels of decision-making process."
+    },
+    {
+      "id": "location",
+      "title": "Geographical Location",
+      "text": "The organization has secretariat in Bangwe Township-Blantyre district, along Mvula road in old Samaritan Trust campus. Its branch is located at Bangula in Nsanje district."
+    },
+    {
+      "id": "programmes",
+      "title": "Economic Empowerment Programmes",
+      "items": [
+        "HIV and AIDS and disability management",
+        "Environment",
+        "Human right and gender"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "economic-empowerment",
+      "title": "Description of economic empowerment programme",
+      "image": "/uploads/economic-empowerment.jpg",
+      "text": "The primary idea is to build knowledge and skills of vulnerable, women, girls, youth with and without disabilities on flower vases designing and production through trainings to enable them become self-reliant economically."
+    },
+    {
+      "id": "key-objectives",
+      "title": "Key Relevant Objectives to economic empowerment programme",
+      "image": "/uploads/key-objectives.jpg",
+      "objectives": [
+        "To improve quality of life of socially excluded groups of PWDs, women, youths and their families through economic empowerment programmes.",
+        "To build capacity of socially excluded groups of women, PWDs, youths to be able to advocate for inclusive programmes in communities."
+      ]
+    }
+  ],
+  "footer": {
+    "column1": {
+      "logo": "/uploads/logo.png",
+      "title": "CAPDIMW.org",
+      "text": "Promoting inclusiveness among socially excluded groups for a better future."
+    },
+    "column2": {
+      "address": "Bangwe Township, Mvula road, old Samaritan Trust campus, Blantyre, Malawi",
+      "contactForm": true,
+      "phone": "+265 123 456 789",
+      "email": "info@capdimw.org"
+    },
+    "column3": {
+      "socials": {
+        "facebook": "https://facebook.com/capdimw",
+        "twitter": "https://twitter.com/capdimw",
+        "linkedin": "https://linkedin.com/company/capdimw"
+      },
+      "copyright": "© 2025 capdimw.org. All Rights Reserved. Powered by Delta Comm"
+    }
+  }
+}
