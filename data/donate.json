@@ -1,0 +1,23 @@
+{
+  "title": "Support Our Work",
+  "mainText": "Your donation helps us continue our vital work promoting inclusiveness and sustainable rights for socially excluded groups.",
+  "donationOptions": [
+    {
+      "amount": 20,
+      "description": "Provide materials for one youth training session."
+    },
+    {
+      "amount": 50,
+      "description": "Support monthly operational costs for a branch office."
+    },
+    {
+      "amount": 100,
+      "description": "Fund a human rights advocacy workshop."
+    }
+  ],
+  "bankDetails": {
+    "bankName": "Malawi Commercial Bank",
+    "accountName": "CAPDIMW Organization",
+    "accountNumber": "1234567890"
+  }
+}

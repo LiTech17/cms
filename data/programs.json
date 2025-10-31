@@ -1,0 +1,24 @@
+{
+  "title": "Our Key Programmes",
+  "description": "We focus on three strategic areas to achieve lasting impact in the communities we serve.",
+  "programs": [
+    {
+      "id": "health",
+      "name": "Health & Disability Management",
+      "summary": "Focuses on inclusive health access and HIV/AIDS management within vulnerable groups.",
+      "image": "/uploads/program-health.jpg"
+    },
+    {
+      "id": "rights",
+      "name": "Human Rights and Gender Equity",
+      "summary": "Advocating for the rights and participation of women and people with disabilities.",
+      "image": "/uploads/program-rights.jpg"
+    },
+    {
+      "id": "environment",
+      "name": "Environmental Sustainability",
+      "summary": "Promoting sustainable practices and climate change resilience in local communities.",
+      "image": "/uploads/program-environment.jpg"
+    }
+  ]
+}

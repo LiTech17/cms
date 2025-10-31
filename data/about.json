@@ -1,0 +1,9 @@
+{
+  "title": "About CAPDIMW - Our Mission",
+  "history": "Established in 2020, CAPDIMW has been dedicated to empowering socially excluded groups in Malawi through sustainable development programs.",
+  "team": [
+    { "name": "Dr. Jane Doe", "role": "Director", "photo": "/uploads/team-jane.jpg" },
+    { "name": "Mr. John Smith", "role": "Programs Manager", "photo": "/uploads/team-john.jpg" }
+  ],
+  "missionText": "To systematically promote inclusiveness among socially excluded groups to enhance full involvement at all levels of decision-making process."
+}

@@ -1,9 +1,25 @@
 {
   "uploads": [
     {
+      "filename": "/uploads/logo.png",
+      "alt": "CAPDIMW Logo",
+      "uploadedAt": "2025-10-30T00:00:00Z"
+    },
+    {
       "filename": "/uploads/hero.jpg",
-      "alt": "CAPDIMW hero image",
+      "alt": "CAPDIMW Hero Image - Community work",
+      "uploadedAt": "2025-10-30T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/economic-empowerment.jpg",
+      "alt": "Economic Empowerment Program Image",
+      "uploadedAt": "2025-10-30T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/key-objectives.jpg",
+      "alt": "Key Objectives Image",
       "uploadedAt": "2025-10-30T00:00:00Z"
     }
+    
   ]
 }
