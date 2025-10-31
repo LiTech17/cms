@@ -9,13 +9,13 @@
     ]
   },
   "hero": {
-    "image": "/uploads/hero.jpg",
+    "image": "/uploads/home-hero-community.jpg",
     "heading": "Welcome to CAPDIMW.org",
     "text": "Creating a free socially excluded living environment to advance sustainable citizen rights.",
     "gallery": [
-      "/uploads/gallery1.jpg",
-      "/uploads/gallery2.jpg",
-      "/uploads/gallery3.jpg"
+      "/uploads/home-gallery-1.jpg",
+      "/uploads/home-gallery-2.jpg",
+      "/uploads/home-gallery-3.jpg"
     ]
   },
   "gridSections": [
@@ -44,13 +44,13 @@
     {
       "id": "economic-empowerment",
       "title": "Description of economic empowerment programme",
-      "image": "/uploads/economic-empowerment.jpg",
+      "image": "/uploads/home-post-economic.jpg",
       "text": "The primary idea is to build knowledge and skills of vulnerable, women, girls, youth with and without disabilities on flower vases designing and production through trainings to enable them become self-reliant economically."
     },
     {
       "id": "key-objectives",
       "title": "Key Relevant Objectives to economic empowerment programme",
-      "image": "/uploads/key-objectives.jpg",
+      "image": "/uploads/home-post-objectives.jpg",
       "objectives": [
         "To improve quality of life of socially excluded groups of PWDs, women, youths and their families through economic empowerment programmes.",
         "To build capacity of socially excluded groups of women, PWDs, youths to be able to advocate for inclusive programmes in communities."

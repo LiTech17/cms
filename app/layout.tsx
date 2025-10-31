@@ -7,6 +7,7 @@ import './tailwind-output.css'; // <-- use the compiled Tailwind CSS
 import { AuthProvider } from '@/components/auth-provider';
 import { PublicHeader } from '@/components/public-header';
 import { PublicFooter } from '@/components/public-footer';
+import { Toaster } from '@/components/toaster';
 
 // ---------------------------------------------------------
 // 1. Load Global Font
@@ -106,6 +107,7 @@ export default function RootLayout({
               <PublicFooter />
             </footer>
           </div>
+          <Toaster />
         </AuthProvider>
       </body>
     </html>

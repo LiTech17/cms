@@ -1,0 +1,13 @@
+{
+  "totalVisits": 0,
+  "pageVisits": {
+    "/": 0,
+    "/about": 0,
+    "/programs": 0,
+    "/posts": 0,
+    "/donate": 0
+  },
+  "visitsByDate": [],
+  "topPages": []
+}
+

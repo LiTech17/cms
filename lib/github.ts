@@ -149,3 +149,65 @@ export async function updateJSON(path: string, data: any, commitMessage: string)
 export async function commitJsonChange<T>(filePath: string, content: T, message: string): Promise<void> {
   await updateJSON(filePath, content, message);
 }
+
+// ------------------------
+// Upload Binary File (Image) to GitHub
+// ------------------------
+/**
+ * Uploads a binary file (image) to GitHub repository.
+ * @param filePath The path where the file should be stored (e.g., 'public/uploads/image.jpg').
+ * @param fileContentBase64 Base64-encoded file content.
+ * @param commitMessage The GitHub commit message.
+ */
+export async function uploadBinaryFile(filePath: string, fileContentBase64: string, commitMessage: string): Promise<GitHubCommitResponse> {
+  if (!GITHUB_TOKEN || !REPO) {
+    console.error("Cannot upload: GITHUB_TOKEN or REPO not configured.");
+    throw new Error("GitHub configuration missing");
+  }
+
+  // 1. Check if file exists to get SHA
+  const getUrl = `https://api.github.com/repos/${REPO}/contents/${encodeURIComponent(filePath)}?ref=${BRANCH}`;
+  const getRes = await fetch(getUrl, {
+    headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: "application/vnd.github.v3+json" },
+    cache: 'no-store'
+  });
+
+  let sha: string | undefined;
+
+  if (getRes.status === 200) {
+    const json = (await getRes.json()) as GitHubFileResponse;
+    sha = json.sha;
+  } else if (getRes.status === 404) {
+    sha = undefined; // File does not exist, GitHub will create it
+  } else {
+    const body = await getRes.text();
+    throw new Error(`Failed to get file sha: ${getRes.status} ${body}`);
+  }
+
+  // 2. Upload the file (PUT request)
+  const putUrl = `https://api.github.com/repos/${REPO}/contents/${encodeURIComponent(filePath)}`;
+  const putRes = await fetch(putUrl, {
+    method: "PUT",
+    headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: "application/vnd.github.v3+json" },
+    body: JSON.stringify({
+      message: commitMessage,
+      content: fileContentBase64,
+      branch: BRANCH,
+      sha, // If defined, updates; if undefined, creates
+    }),
+  });
+
+  const putJson = (await putRes.json()) as any;
+
+  if (!putRes.ok) {
+    console.error(`GitHub upload error: ${JSON.stringify(putJson)}`);
+    const errorMessage =
+      putJson.message ||
+      putJson.errors?.[0]?.message ||
+      'Unknown GitHub API error.';
+
+    throw new Error(`GitHub upload error: ${putRes.status} - ${errorMessage}`);
+  }
+
+  return putJson as GitHubCommitResponse;
+}

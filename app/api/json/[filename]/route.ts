@@ -4,11 +4,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import * as fs from 'fs';
 import * as path from 'path';
 
-// FIX: Removed the unused 'req: NextRequest' parameter.
-export async function GET(_: NextRequest, { params }: { params: { filename: string } }) { 
-// Alternative fix: You could keep 'req' and just start its name with an underscore:
-// export async function GET(req: NextRequest, { params }: { params: { filename: string } }) {
-  const { filename } = params;
+// In Next.js 15, params are now a Promise and must be awaited
+export async function GET(_: NextRequest, { params }: { params: Promise<{ filename: string }> }) {
+  const { filename } = await params;
   const filePath = path.join(process.cwd(), 'data', filename);
 
   try {

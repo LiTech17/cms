@@ -1,24 +1,108 @@
 {
-  "title": "Our Key Programmes",
-  "description": "We focus on three strategic areas to achieve lasting impact in the communities we serve.",
+  "hero": {
+    "heading": "Our Key Programmes",
+    "text": "We focus on strategic interventions to improve the lives of marginalized communities and people with disabilities."
+  },
   "programs": [
     {
-      "id": "health",
-      "name": "Health & Disability Management",
-      "summary": "Focuses on inclusive health access and HIV/AIDS management within vulnerable groups.",
-      "image": "/uploads/program-health.jpg"
+      "id": "braille-production",
+      "title": "Braille Production",
+      "shortDescription": "Transcription of HIV/AIDS information into braille booklets for visually impaired youth.",
+      "image": "/uploads/program-health-disability.jpg",
+      "details": {
+        "heading": "Inclusive HIV/AIDS Education",
+        "text": "Implemented with funding from the U.S. Embassy through PEPFAR, this project transcribes critical HIV/AIDS information into braille booklets to bridge information gaps for marginalized youth with and without disabilities.",
+        "objectives": [
+          "Transcribe HIV/AIDS educational materials into braille.",
+          "Promote accessibility for visually impaired youth.",
+          "Support UNAIDS 95-95-95 strategic goals."
+        ],
+        "focusAreas": [
+          "Braille Literacy",
+          "HIV/AIDS Awareness",
+          "Youth Disability Inclusion"
+        ]
+      }
     },
     {
-      "id": "rights",
-      "name": "Human Rights and Gender Equity",
-      "summary": "Advocating for the rights and participation of women and people with disabilities.",
-      "image": "/uploads/program-rights.jpg"
+      "id": "covid-response",
+      "title": "COVID-19 Community Response",
+      "shortDescription": "Training and support for marginalized groups to prevent COVID-19 spread and improve livelihoods.",
+      "image": "/uploads/program-rights-gender.jpg",
+      "details": {
+        "heading": "Empowering Communities Amid COVID-19",
+        "text": "Funded by the U.S. Embassy through PAS, this initiative trains relatives of persons with disabilities in mask-making, soap production, and sign language communication. It reached over 9,000 vulnerable people in Bangwe communities.",
+        "objectives": [
+          "Train community members in COVID-19 preventive measures.",
+          "Provide livelihood skills to vulnerable groups.",
+          "Enhance disability-inclusive community support."
+        ],
+        "focusAreas": [
+          "Public Health Training",
+          "Skill Development",
+          "Inclusive Community Outreach"
+        ]
+      }
     },
     {
-      "id": "environment",
-      "name": "Environmental Sustainability",
-      "summary": "Promoting sustainable practices and climate change resilience in local communities.",
-      "image": "/uploads/program-environment.jpg"
+      "id": "flower-shoes-vases",
+      "title": "Flower, Shoes & Vases Production",
+      "shortDescription": "Economic empowerment for women and girls through training in production of shoes and flower vases.",
+      "image": "/uploads/program-environment-sustain.jpg",
+      "details": {
+        "heading": "Economic Empowerment of Women",
+        "text": "With funding from USAID through World Connect Malawi, 50 women and girls were trained in production of shoes and flower vases, enabling them to earn sustainable livelihoods.",
+        "objectives": [
+          "Train women and girls in craft production.",
+          "Support market-ready product creation.",
+          "Empower women economically."
+        ],
+        "focusAreas": [
+          "Women & Girls Skills Development",
+          "Microenterprise Support",
+          "Income-Generating Activities"
+        ]
+      }
+    },
+    {
+      "id": "soap-making-training",
+      "title": "Soap Making Training",
+      "shortDescription": "Training communities in soap and face mask production to fight COVID-19.",
+      "image": "/uploads/program-health-disability.jpg",
+      "details": {
+        "heading": "Community Hygiene & Safety",
+        "text": "Supported by the U.S. Embassy and CDC guidance, this project trained communities in soap and mask production, improving hygiene and COVID-19 preparedness for 9,000 marginalized individuals.",
+        "objectives": [
+          "Train communities in soap and mask production.",
+          "Improve hygiene practices.",
+          "Reduce COVID-19 transmission risk."
+        ],
+        "focusAreas": [
+          "Public Health & Hygiene",
+          "Skill Development",
+          "Community Resilience"
+        ]
+      }
+    },
+    {
+      "id": "flower-vase-making",
+      "title": "Flower Vase Making",
+      "shortDescription": "Hands-on production project empowering women to produce flower vases for sale and income.",
+      "image": "/uploads/program-environment-sustain.jpg",
+      "details": {
+        "heading": "Artisan Skills for Women",
+        "text": "This initiative trains women in the production of flower vases, promoting entrepreneurship and sustainable income generation.",
+        "objectives": [
+          "Teach women vase-making skills.",
+          "Enable micro-business creation.",
+          "Support local economic empowerment."
+        ],
+        "focusAreas": [
+          "Artisan Skills Training",
+          "Microenterprise Support",
+          "Income Generation"
+        ]
+      }
     }
   ]
 }

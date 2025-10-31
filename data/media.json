@@ -3,23 +3,72 @@
     {
       "filename": "/uploads/logo.png",
       "alt": "CAPDIMW Logo",
-      "uploadedAt": "2025-10-30T00:00:00Z"
+      "uploadedAt": "2025-10-31T00:00:00Z"
     },
     {
-      "filename": "/uploads/hero.jpg",
+      "filename": "/uploads/home-hero-community.jpg",
       "alt": "CAPDIMW Hero Image - Community work",
-      "uploadedAt": "2025-10-30T00:00:00Z"
+      "uploadedAt": "2025-10-31T00:00:00Z"
     },
     {
-      "filename": "/uploads/economic-empowerment.jpg",
+      "filename": "/uploads/home-gallery-1.jpg",
+      "alt": "Home Gallery Image 1",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/home-gallery-2.jpg",
+      "alt": "Home Gallery Image 2",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/home-gallery-3.jpg",
+      "alt": "Home Gallery Image 3",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/home-post-economic.jpg",
       "alt": "Economic Empowerment Program Image",
-      "uploadedAt": "2025-10-30T00:00:00Z"
+      "uploadedAt": "2025-10-31T00:00:00Z"
     },
     {
-      "filename": "/uploads/key-objectives.jpg",
+      "filename": "/uploads/home-post-objectives.jpg",
       "alt": "Key Objectives Image",
-      "uploadedAt": "2025-10-30T00:00:00Z"
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/about-hero-team.jpg",
+      "alt": "About Us Hero Image - Team gathering",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/team-jane-doe.jpg",
+      "alt": "Team Member Jane Doe",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/team-john-smith.jpg",
+      "alt": "Team Member John Smith",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/team-grace-banda.jpg",
+      "alt": "Team Member Grace Banda",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/program-health-disability.jpg",
+      "alt": "Health and Disability Program Image",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/program-rights-gender.jpg",
+      "alt": "Human Rights Program Image",
+      "uploadedAt": "2025-10-31T00:00:00Z"
+    },
+    {
+      "filename": "/uploads/program-environment-sustain.jpg",
+      "alt": "Environmental Sustainability Program Image",
+      "uploadedAt": "2025-10-31T00:00:00Z"
     }
-    
   ]
 }

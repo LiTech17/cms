@@ -1,9 +1,60 @@
 {
-  "title": "About CAPDIMW - Our Mission",
-  "history": "Established in 2020, CAPDIMW has been dedicated to empowering socially excluded groups in Malawi through sustainable development programs.",
-  "team": [
-    { "name": "Dr. Jane Doe", "role": "Director", "photo": "/uploads/team-jane.jpg" },
-    { "name": "Mr. John Smith", "role": "Programs Manager", "photo": "/uploads/team-john.jpg" }
-  ],
-  "missionText": "To systematically promote inclusiveness among socially excluded groups to enhance full involvement at all levels of decision-making process."
+  "hero": {
+    "image": "/uploads/about-hero-team.jpg",
+    "heading": "About CAPDIMW - Our Mission",
+    "text": "CAPDIMW is a local, inclusive NGO dedicated to empowering Persons with Disabilities (PWDs) and other socially excluded groups in Malawi since 2004."
+  },
+  "history": {
+    "title": "Establishment and Commitment",
+    "text": "Established in November 2004, CAPDIMW (Caring for Persons with Disabilities in Malawi) is a legally registered, inclusive non-governmental organization. Our core philosophy is promoting equality and full participation for marginalized community members. We are committed to being run by both persons with and without disabilities, ensuring our efforts are grounded in lived experience and mutual support.",
+    "location": "The organization operates its secretariat in Bangwe Township, Blantyre district, and maintains a branch in Bangula, Nsanje district."
+  },
+  "visionAndMission": {
+    "vision": "To create a free socially excluded living environment to advance sustainable citizen rights.",
+    "mission": "To systematically promote inclusiveness among socially excluded groups to enhance full involvement at all levels of the decision-making process."
+  },
+  "programHighlights": {
+    "title": "Key Programmatic Areas & Impact",
+    "description": "Our work tackles the multifaceted challenges faced by PWDs, women, and youth in Malawi across several critical areas:",
+    "areas": [
+      "Economic Empowerment: Focused on self-reliance through vocational training in trades like flower vases designing, production, and soap making.",
+      "HIV and AIDS and Disability Management: Addressing awareness, prevention, and support within the disability community.",
+      "Human Right and Gender: Advocating for the rights of PWDs and promoting gender equality to ensure inclusive programs in their own communities.",
+      "Environment"
+    ],
+    "projects": [
+      {
+        "name": "COVID-19 Response (U.S. Embassy)",
+        "impact": "Trained relatives of PWDs in making face masks, soap, and sign language communication, reaching thousands of marginalized groups."
+      },
+      {
+        "name": "Economic Skills Training (USAID/World Connect)",
+        "impact": "Empowered 50 women and girls through training on shoe and flower vase production, enabling them to create products for local markets."
+      },
+      {
+        "name": "School Accessibility Improvement",
+        "impact": "Supported the construction of raised toilets with handrails and ramps at Chawe Primary School to enhance accessibility for learners with physical disabilities."
+      }
+    ]
+  },
+  "team": {
+    "title": "Leadership Team",
+    "members": [
+      {
+        "name": "Dr. Jane Doe",
+        "role": "Director",
+        "photo": "/uploads/team-jane-doe.jpg"
+      },
+      {
+        "name": "Mr. John Smith",
+        "role": "Programs Manager",
+        "photo": "/uploads/team-john-smith.jpg"
+      },
+      {
+        "name": "Ms. Grace Banda",
+        "role": "Project Coordinator",
+        "photo": "/uploads/team-grace-banda.jpg"
+      }
+    ]
+  }
 }

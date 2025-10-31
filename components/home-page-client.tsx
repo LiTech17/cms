@@ -3,7 +3,8 @@
 import React, { useState, useCallback } from 'react';
 import { HomeData } from '@/lib/types';
 import { EditorControls } from './editor-controls';
-import ImageCarousel from './carousel';
+import EditableCarousel from './editable-carousel';
+import ImagePickerModal from './image-picker-modal';
 import Image from 'next/image';
 import Link from 'next/link';
 import { commitJsonChange } from '@/lib/github';
@@ -40,6 +41,7 @@ const HomePageClient: React.FC<HomePageClientProps> = ({ initialData }) => {
   const [content, setContent] = useState<HomeData>(initialData);
   const [isEditing, setIsEditing] = useState<Record<string, boolean>>({});
   const [originalContent, setOriginalContent] = useState<HomeData>(initialData);
+  const [imagePickerOpen, setImagePickerOpen] = useState<{ section: string; index?: number } | null>(null);
 
   const updateContent = useCallback((path: string, value: any) => {
     if (path.includes('.')) {
@@ -128,7 +130,12 @@ const HomePageClient: React.FC<HomePageClientProps> = ({ initialData }) => {
                 </Link>
               </div>
               <div className="relative mt-10 md:mt-0">
-                <ImageCarousel images={content.hero.gallery} altText="CAPDIMW Hero Images" aspectRatioClass="aspect-[16/10]" />
+                <EditableCarousel
+                  images={content.hero.gallery}
+                  altText="CAPDIMW Hero Images"
+                  aspectRatioClass="aspect-[16/10]"
+                  onImagesChange={(newImages) => updateContent('hero.gallery', newImages)}
+                />
               </div>
             </div>
           </EditorControls>
@@ -191,7 +198,18 @@ const HomePageClient: React.FC<HomePageClientProps> = ({ initialData }) => {
               >
                 <Card className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-start">
                   <div className={`relative w-full lg:w-1/3 ${isEditing[`post-${post.id}`] ? 'order-2 lg:order-1' : 'order-1'}`}>
-                    <Image src={post.image} alt={post.title} width={500} height={300} className="rounded-xl object-cover aspect-[4/3] w-full" />
+                    <div className="relative">
+                      <Image src={post.image} alt={post.title} width={500} height={300} className="rounded-xl object-cover aspect-[4/3] w-full" />
+                      {isEditing[`post-${post.id}`] && (
+                        <button
+                          onClick={() => setImagePickerOpen({ section: 'posts', index: idx })}
+                          className="absolute top-2 right-2 px-3 py-1.5 bg-primary text-primary-foreground rounded-lg shadow-lg hover:bg-primary/90 transition-colors text-sm font-medium z-10"
+                          type="button"
+                        >
+                          Change Image
+                        </button>
+                      )}
+                    </div>
                   </div>
                   <div className={`w-full lg:w-2/3 space-y-4 ${isEditing[`post-${post.id}`] ? 'order-1 lg:order-2' : 'order-2'}`}>
                     <h3 className="text-2xl font-bold text-foreground dark:text-gray-50">
@@ -213,6 +231,25 @@ const HomePageClient: React.FC<HomePageClientProps> = ({ initialData }) => {
           </div>
         </div>
       </section>
+
+      {/* Image Picker Modal */}
+      {imagePickerOpen && (
+        <ImagePickerModal
+          isOpen={true}
+          onClose={() => setImagePickerOpen(null)}
+          onSelect={(newImage) => {
+            if (imagePickerOpen.section === 'posts' && imagePickerOpen.index !== undefined) {
+              updateContent(`posts.${imagePickerOpen.index}.image`, newImage);
+            }
+            setImagePickerOpen(null);
+          }}
+          currentImage={
+            imagePickerOpen.section === 'posts' && imagePickerOpen.index !== undefined
+              ? content.posts[imagePickerOpen.index]?.image
+              : undefined
+          }
+        />
+      )}
     </div>
   );
 };

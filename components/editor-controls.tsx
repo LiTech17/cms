@@ -3,6 +3,7 @@
 import React, { ReactNode, useState } from 'react';
 import { Save, X, Edit, Loader2 } from 'lucide-react';
 import { useAuth } from './auth-provider';
+import toast from 'react-hot-toast';
 
 // -------------------------------------------------------------------------
 // 1. Button Mock (shadcn/ui style-compatible)
@@ -73,9 +74,10 @@ export const EditorControls: React.FC<EditorControlsProps> = ({
     setIsSaving(true);
     try {
       await onSave();
+      toast.success(`Successfully saved ${sectionId}`);
     } catch (error) {
       console.error(`❌ Failed to save section "${sectionId}":`, error);
-      alert(`Error saving content for ${sectionId}. Check console for details.`);
+      toast.error(`Error saving content for ${sectionId}. Check console for details.`);
     } finally {
       setIsSaving(false);
     }
