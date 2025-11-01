@@ -2,8 +2,8 @@
   "totalVisits": 54,
   "pageVisits": {
     "/": 25,
-    "/about": 8,
-    "/programs": 8,
+    "/about": 9,
+    "/programs": 7,
     "/posts": 0,
     "/donate": 4,
     "/programs/soap-making-training": 1,
@@ -23,11 +23,11 @@
     },
     {
       "path": "/about",
-      "visits": 8
+      "visits": 9
     },
     {
       "path": "/programs",
-      "visits": 8
+      "visits": 7
     },
     {
       "path": "/account-settings",
