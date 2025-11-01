@@ -1,13 +1,38 @@
 {
-  "totalVisits": 0,
+  "totalVisits": 1,
   "pageVisits": {
-    "/": 0,
+    "/": 1,
     "/about": 0,
     "/programs": 0,
     "/posts": 0,
     "/donate": 0
   },
-  "visitsByDate": [],
-  "topPages": []
+  "visitsByDate": [
+    {
+      "date": "2025-11-01",
+      "visits": 1
+    }
+  ],
+  "topPages": [
+    {
+      "path": "/",
+      "visits": 1
+    },
+    {
+      "path": "/about",
+      "visits": 0
+    },
+    {
+      "path": "/programs",
+      "visits": 0
+    },
+    {
+      "path": "/posts",
+      "visits": 0
+    },
+    {
+      "path": "/donate",
+      "visits": 0
+    }
+  ]
 }
-
