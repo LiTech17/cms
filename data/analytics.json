@@ -1,17 +1,18 @@
 {
-  "totalVisits": 5,
+  "totalVisits": 6,
   "pageVisits": {
     "/": 1,
     "/about": 1,
     "/programs": 1,
     "/posts": 0,
     "/donate": 1,
-    "/programs/soap-making-training": 1
+    "/programs/soap-making-training": 1,
+    "/account-settings": 1
   },
   "visitsByDate": [
     {
       "date": "2025-11-01",
-      "visits": 5
+      "visits": 6
     }
   ],
   "topPages": [
@@ -33,6 +34,10 @@
     },
     {
       "path": "/programs/soap-making-training",
+      "visits": 1
+    },
+    {
+      "path": "/account-settings",
       "visits": 1
     },
     {
