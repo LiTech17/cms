@@ -1,5 +1,5 @@
 {
-  "totalVisits": 30,
+  "totalVisits": 31,
   "pageVisits": {
     "/": 10,
     "/about": 6,
@@ -7,12 +7,13 @@
     "/posts": 0,
     "/donate": 3,
     "/programs/soap-making-training": 1,
-    "/account-settings": 7
+    "/account-settings": 7,
+    "/posts/economic-empowerment": 1
   },
   "visitsByDate": [
     {
       "date": "2025-11-01",
-      "visits": 30
+      "visits": 31
     }
   ],
   "topPages": [
@@ -38,6 +39,10 @@
     },
     {
       "path": "/programs/soap-making-training",
+      "visits": 1
+    },
+    {
+      "path": "/posts/economic-empowerment",
       "visits": 1
     },
     {
