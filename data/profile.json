@@ -1,9 +1,9 @@
 {
-  "setupComplete": false,
+  "setupComplete": true,
   "admin": {
-    "fullName": "",
-    "username": "",
-    "email": "",
-    "hashedPassword": ""
+    "fullName": "wills malani",
+    "username": "Wills",
+    "email": "wizmala@mail.com",
+    "hashedPassword": "$2b$10$NE5sNj09SNqSYRskLrGcduPG8ewp1A4nl7nX/rgP1Buyzh9v0fF1m"
   }
 }
