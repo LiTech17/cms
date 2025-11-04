@@ -3,9 +3,9 @@
   "pageVisits": {
     "/": 31,
     "/about": 21,
-    "/programs": 9,
+    "/programs": 8,
     "/posts": 0,
-    "/donate": 4,
+    "/donate": 5,
     "/programs/soap-making-training": 1,
     "/account-settings": 7,
     "/posts/economic-empowerment": 1
@@ -31,7 +31,7 @@
     },
     {
       "path": "/programs",
-      "visits": 9
+      "visits": 8
     },
     {
       "path": "/account-settings",
@@ -39,7 +39,7 @@
     },
     {
       "path": "/donate",
-      "visits": 4
+      "visits": 5
     },
     {
       "path": "/programs/soap-making-training",
