@@ -1,8 +1,8 @@
 {
-  "totalVisits": 78,
+  "totalVisits": 79,
   "pageVisits": {
     "/": 33,
-    "/about": 21,
+    "/about": 22,
     "/programs": 9,
     "/posts": 0,
     "/donate": 5,
@@ -13,7 +13,7 @@
   "visitsByDate": [
     {
       "date": "2025-11-04",
-      "visits": 24
+      "visits": 25
     },
     {
       "date": "2025-11-01",
@@ -27,7 +27,7 @@
     },
     {
       "path": "/about",
-      "visits": 21
+      "visits": 22
     },
     {
       "path": "/programs",
