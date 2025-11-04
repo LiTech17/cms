@@ -1,9 +1,9 @@
 {
-  "totalVisits": 73,
+  "totalVisits": 74,
   "pageVisits": {
     "/": 31,
     "/about": 21,
-    "/programs": 8,
+    "/programs": 9,
     "/posts": 0,
     "/donate": 4,
     "/programs/soap-making-training": 1,
@@ -13,7 +13,7 @@
   "visitsByDate": [
     {
       "date": "2025-11-04",
-      "visits": 19
+      "visits": 20
     },
     {
       "date": "2025-11-01",
@@ -31,7 +31,7 @@
     },
     {
       "path": "/programs",
-      "visits": 8
+      "visits": 9
     },
     {
       "path": "/account-settings",
