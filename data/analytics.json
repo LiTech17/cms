@@ -1,5 +1,5 @@
 {
-  "totalVisits": 97,
+  "totalVisits": 98,
   "pageVisits": {
     "/": 36,
     "/about": 25,
@@ -11,12 +11,13 @@
     "/posts/economic-empowerment": 1,
     "/programs/braille-production": 3,
     "/programs/covid-response": 1,
-    "/programs/flower-shoes-vases": 1
+    "/programs/flower-shoes-vases": 1,
+    "/programs/flower-vase-making": 1
   },
   "visitsByDate": [
     {
       "date": "2025-11-05",
-      "visits": 13
+      "visits": 14
     },
     {
       "date": "2025-11-04",
