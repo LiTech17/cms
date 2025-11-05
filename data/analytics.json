@@ -1,5 +1,5 @@
 {
-  "totalVisits": 94,
+  "totalVisits": 95,
   "pageVisits": {
     "/": 36,
     "/about": 25,
@@ -9,12 +9,13 @@
     "/programs/soap-making-training": 1,
     "/account-settings": 8,
     "/posts/economic-empowerment": 1,
-    "/programs/braille-production": 3
+    "/programs/braille-production": 3,
+    "/programs/covid-response": 1
   },
   "visitsByDate": [
     {
       "date": "2025-11-05",
-      "visits": 10
+      "visits": 11
     },
     {
       "date": "2025-11-04",
@@ -56,6 +57,10 @@
     },
     {
       "path": "/posts/economic-empowerment",
+      "visits": 1
+    },
+    {
+      "path": "/programs/covid-response",
       "visits": 1
     },
     {
