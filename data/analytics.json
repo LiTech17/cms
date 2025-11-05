@@ -1,5 +1,5 @@
 {
-  "totalVisits": 95,
+  "totalVisits": 96,
   "pageVisits": {
     "/": 36,
     "/about": 25,
@@ -10,12 +10,13 @@
     "/account-settings": 8,
     "/posts/economic-empowerment": 1,
     "/programs/braille-production": 3,
-    "/programs/covid-response": 1
+    "/programs/covid-response": 1,
+    "/programs/flower-shoes-vases": 1
   },
   "visitsByDate": [
     {
       "date": "2025-11-05",
-      "visits": 11
+      "visits": 12
     },
     {
       "date": "2025-11-04",
@@ -64,8 +65,8 @@
       "visits": 1
     },
     {
-      "path": "/posts",
-      "visits": 0
+      "path": "/programs/flower-shoes-vases",
+      "visits": 1
     }
   ]
 }
